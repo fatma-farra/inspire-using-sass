@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam:wght@300&display=swap');
+
+
+@font-face{
+    font-family: rage;
+    src: url("font/RAGE.TTF") format('truetype');    
+}
+
+@font-face{
+    font-family: mvboli;
+    src: url("font/mvboli.ttf") format('truetype');
+}
+
+@font-face{
+    font-family: Lucida Sans Typewriter;
+    src: url("font/lucida\ sans\ typewriter.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Pristina;
+    src: url("font/PRISTINA.TTF") format('truetype');
+}
+
+@font-face{
+    font-family: Ink Free;
+    src: url("font/Inkfree.ttf") format('truetype');
+}
+
+@font-face{
+    font-family: Segoe Print;
+    src: url("font/Segoe-Print-Font.ttf") format('truetype');
+}
+
+@font-face{
+    font-family: Simplified Arabic Fixed;
+    src: url("font/simpfxo.ttf") format('truetype');
+}

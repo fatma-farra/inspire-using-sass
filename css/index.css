@@ -1,0 +1,94 @@
+@import url("fonts.css");
+
+:root {
+  --main-txt: #834453;
+  --primary-txt: #A75176;
+  --secondery-txt: #534D4A;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.container {
+  width: 80%;
+}
+
+.section-title {
+  font-family: 'Comfortaa', cursive;
+  font-size: 85pt;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon {
+  width: 3em;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: #f1e1d7;
+  width: 100%;
+  padding: 5px;
+  position: fixed;
+  z-index: 3;
+}
+
+nav .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .navbar #page-title {
+  font-family: rage;
+  font-size: 55px;
+  color: var(--main-txt);
+}
+
+nav .navbar #home-icon {
+  padding: 10px;
+  background-color: #cf9eb4;
+  border-radius: 50%;
+}
+
+header {
+  height: 100%;
+  background-image: url("../img/blog.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: relative;
+}
+
+header .overlay {
+  background: linear-gradient(-230deg, #7F7481, #9D3E81, #411548);
+  opacity: 0.5;
+  position: absolute;
+  inset: 0;
+  mix-blend-mode: overlay;
+}
